@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body { font-family: sans-serif; color: white; background: #2E3136; margin: 0; padding: 12px; }
+    .row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    input[type="number"] { width: 50px; padding: 4px; text-align: center; border-radius: 4px; }
+    .radio-group { display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <label>Modifier:</label>
+    <input type="number" id="modInput" value="0" />
+  </div>
+  
+  <div class="radio-group">
+    <label><input type="radio" name="rollType" value="advantage"> Advantage</label>
+    <label><input type="radio" name="rollType" value="flat" checked> Flat</label>
+    <label><input type="radio" name="rollType" value="disadvantage"> Disadvantage</label>
+  </div>
+
+  <script type="module" src="/src/token-ui.js"></script>
+</body>
+</html>

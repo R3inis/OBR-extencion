@@ -1,5 +1,12 @@
 {
-  "name": "Initiative Roller",
-  "version": "1.1.0",
-  "manifest_version": 1
+  "name": "Initiative Master",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "action": {
+    "title": "Roll All Initiatives",
+    "icon": "/icon.svg",
+    "popover": "/",
+    "width": 300,
+    "height": 150
+  }
 }
